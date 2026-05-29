@@ -1,9 +1,9 @@
 return {
   "catppuccin/nvim",
-  -- lazy = false,
+  lazy = false,
   name = "catppuccin",
   priority = 1000,
-  config = function()
+  init = function()
     require("catppuccin").setup({
       transparent_background = true,
     })
